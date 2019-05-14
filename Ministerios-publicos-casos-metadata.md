@@ -82,7 +82,7 @@ Recursos disponibles
 
 -   **delito_tentativa (string):** describe si el delito se produjo en grado de tentativa. Toma los valores SI/NO
 
--   **delito_estadístico (string):**
+-   **delito_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del caso informado
 
 ### Ministerios públicos - Actos procesales - Muestreo
 
