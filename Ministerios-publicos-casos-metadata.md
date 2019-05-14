@@ -132,6 +132,23 @@ Recursos disponibles
 
 -   **acto_procesal_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
 
+
+### Ministerios públicos - Casos iniciados - Muestreo
+
+-   **Nombre:** mp-casos-iniciados-muestreo.csv
+
+-   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
+
+-   **Formato:** CSV delimitado por comas, codificado en UTF-8
+
+-   **Rango temporal:** muestreo de casos iniciados en el año AAAA
+
+
+
+
+
+
+
 ### Notas
 
 [Ley 27.275 - Derecho de Acceso a la Información Pública](http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265949/norma.htm)
