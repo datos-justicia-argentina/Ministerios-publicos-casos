@@ -136,7 +136,7 @@ Recursos disponibles
 
 -   **Nombre:** provincias-y-años-disponibles-ministerio-publico.csv
 
--   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los ministerios públicos provinciales.
+-   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los ministerios públicos.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
