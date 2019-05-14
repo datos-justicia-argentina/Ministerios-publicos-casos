@@ -132,22 +132,15 @@ Recursos disponibles
 
 -   **acto_procesal_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
 
+### Provincias y años disponibles en los casos iniciados y actos procesales de los ministerios públicos - AAAA-MM-DD
 
-### Ministerios públicos - Casos iniciados - Muestreo
+-   **Nombre:** provincias-y-años-disponibles-ministerio-publico.csv
 
--   **Nombre:** mp-casos-iniciados-muestreo.csv
-
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los ministerios públicos provinciales al AAAA-MM-DD.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** muestreo de casos iniciados en el año AAAA
-
-
-
-
-
-
+-   **Rango temporal:** : período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
 
 ### Notas
 
