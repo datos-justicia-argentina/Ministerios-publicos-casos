@@ -132,15 +132,15 @@ Recursos disponibles
 
 -   **acto_procesal_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
 
-### Provincias y años disponibles en los casos iniciados y actos procesales de los ministerios públicos - AAAA-MM-DD
+### Provincias y años disponibles en los casos iniciados y actos procesales de los ministerios públicos
 
 -   **Nombre:** provincias-y-años-disponibles-ministerio-publico.csv
 
--   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los ministerios públicos provinciales al AAAA-MM-DD.
+-   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los ministerios públicos provinciales.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** : período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
+-   **Rango temporal:**: período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
 
 ### Notas
 
