@@ -24,6 +24,25 @@ Características
 
 Recursos disponibles
 --------------------
+### Ministerios públicos - Casos iniciados
+
+-   **Nombre:** mp-casos-iniciados.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a casos iniciados.
+
+-   **Formato:** ZIP
+
+-   **Rango temporal:** período comprendido entre los años AAAA
+
+### Ministerios públicos - Actos procesales
+
+-   **Nombre:** mp-actos-procesales.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a actos procesales.
+
+-   **Formato:** ZIP
+
+-   **Rango temporal:** período comprendido entre los años AAAA
 
 ### Ministerios públicos - Casos iniciados - Muestreo
 
@@ -112,26 +131,6 @@ Recursos disponibles
 -   **acto_procesal_fecha (date):** fecha del acto procesal correspondiente al caso y al denunciado. Tiene el formato AAAA-MM-DD
 
 -   **acto_procesal_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
-
-### Ministerios públicos - Casos iniciados
-
--   **Nombre:** mp-casos-iniciados.zip
-
--   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a casos iniciados.
-
--   **Formato:** ZIP
-
--   **Rango temporal:** período comprendido entre los años AAAA
-
-### Ministerios públicos - Actos procesales
-
--   **Nombre:** mp-actos-procesales.zip
-
--   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a actos procesales.
-
--   **Formato:** ZIP
-
--   **Rango temporal:** período comprendido entre los años AAAA
 
 ### Notas
 
