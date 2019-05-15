@@ -58,7 +58,7 @@ Recursos disponibles
 
 -   **provincia_indec_id (string):** código de provincia del Ministerio Público en que se inició el caso, según la codificación implementada por INDEC
 
--   **provincia_nombre (string):** nombre de provincia del Ministerio Público en que se en que se inició el caso
+-   **provincia_nombre (string):** nombre de provincia del Ministerio Público en que se inició el caso
 
 -   **caso_id (string):** código que identifica el caso. Cada provincia usa su propio formato de identificación de caso.
 
