@@ -1,7 +1,7 @@
 Ministerios públicos - Casos
 ============================
 
-En este conjunto de datos se presentan los datos elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, siguiendo el Protocolo Técnico de Datos y de Procesos, en el marco del Convenio Interjurisdiccional de Datos Abiertos de Justicia.
+En este conjunto de datos se presentan los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, siguiendo el Protocolo Técnico de Datos y de Procesos, en el marco del Convenio Interjurisdiccional de Datos Abiertos de Justicia.
 
 http://datos.jus.gob.ar/dataset/ministerios-publicos-casos
 
@@ -28,7 +28,7 @@ Recursos disponibles
 
 -   **Nombre:** mp-casos-iniciados.zip
 
--   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a casos iniciados.
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados.
 
 -   **Formato:** ZIP
 
@@ -38,7 +38,7 @@ Recursos disponibles
 
 -   **Nombre:** mp-actos-procesales.zip
 
--   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a actos procesales.
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales.
 
 -   **Formato:** ZIP
 
@@ -48,7 +48,7 @@ Recursos disponibles
 
 -   **Nombre:** mp-casos-iniciados-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -88,7 +88,7 @@ Recursos disponibles
 
 -   **Nombre:** mp-actos-procesales-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos fiscales provinciales, correspondientes a actos procesales. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
