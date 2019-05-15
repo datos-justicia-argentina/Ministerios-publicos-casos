@@ -134,7 +134,7 @@ Recursos disponibles
 
 ### Provincias y años disponibles en los casos iniciados y actos procesales de los ministerios públicos
 
--   **Nombre:** provincias-y-años-disponibles-ministerio-publico.csv
+-   **Nombre:** provincias-y-anios-disponibles-ministerio-publico.csv
 
 -   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los ministerios públicos.
 
