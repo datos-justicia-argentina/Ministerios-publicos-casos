@@ -56,7 +56,7 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **provincia_indec_id (string):** código de provincia del Ministerio Público en que se inició el caso, según la codificación implementada por INDEC
+-   **provincia_id (string):** código de provincia del Ministerio Público en que se inició el caso, según la codificación implementada por INDEC
 
 -   **provincia_nombre (string):** nombre de provincia del Ministerio Público en que se inició el caso
 
@@ -96,7 +96,7 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **provincia_indec_id (string):** código de provincia del Ministerio Público en que se inició el caso, según la codificación implementada por INDEC
+-   **provincia_id (string):** código de provincia del Ministerio Público en que se inició el caso, según la codificación implementada por INDEC
 
 -   **provincia_nombre (string):** nombre de provincia del Ministerio Público en que se inició el caso
 
