@@ -152,9 +152,9 @@ Recursos disponibles
 
 -   **anio (string):** año de los casos informados
 
--   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (contenidos en el recurso "Ministerios Públicos - Casos Iniciados". Toma los valores S: Sí, N: No
+-   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (contenidos en el recurso "Ministerios Públicos - Casos Iniciados"). Toma los valores S: Sí, N: No
 
--   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (contenidos en el recurso "Ministerios Públicos - Actos Procesales". Toma los valores S: Sí, N: No
+-   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (contenidos en el recurso "Ministerios Públicos - Actos Procesales"). Toma los valores S: Sí, N: No
 
 ### Notas
 
