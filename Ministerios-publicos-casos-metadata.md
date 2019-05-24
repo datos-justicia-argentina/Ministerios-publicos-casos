@@ -142,6 +142,20 @@ Recursos disponibles
 
 -   **Rango temporal:**: período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
 
+### Campos del recurso
+
+-   **provincia_id (string):** código de provincia del Ministerio Público en que se inició el caso, según la codificación implementada por INDEC
+
+-   **provincia_nombre (string):** nombre de provincia del Ministerio Público en que se inició el caso
+
+-   **institucion (string):** nombre de la institución que publica
+
+-   **anio (string):** año de los casos informados
+
+-   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (recurso Ministerios Públicos - Casos Iniciados". Toma los valores S: Sí, N: No
+
+-   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (recurso Ministerios Públicos - Actos Procesales". Toma los valores S: Sí, N: No
+
 ### Notas
 
 [Ley 27.275 - Derecho de Acceso a la Información Pública](http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265949/norma.htm)
