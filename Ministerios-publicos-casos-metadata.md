@@ -32,9 +32,11 @@ Recursos disponibles
 
 -   **Formato:** ZIP
 
--   **Rango temporal:** período comprendido entre los años AAAA
+-   **Nombre de los archivos contenidos:** ministerios-publicos-casos-AAAA.csv
 
--   **Observación:** la estructura de los archivos contenidos en este archivo está descripta en el recurso "Ministerios públicos - Casos - muestreo"
+-   **Rango temporal:** casos iniciados en el año AAAA 
+
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Casos - muestreo"
 
 
 ### Ministerios públicos - Actos procesales
@@ -45,9 +47,11 @@ Recursos disponibles
 
 -   **Formato:** ZIP
 
--   **Rango temporal:** período comprendido entre los años AAAA
+-   **Nombre de los archivos contenidos:** ministerios-publicos-actos-procesales-AAAA.csv
 
--   **Observación:** la estructura de los archivos contenidos en este archivo está descripta en el recurso "Ministerios públicos - Actos Procesales - muestreo"
+-   **Rango temporal:** Actos procesales realizados en el año AAAA
+
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Actos Procesales - Muestreo"
 
 ### Ministerios públicos - Casos - Muestreo
 
