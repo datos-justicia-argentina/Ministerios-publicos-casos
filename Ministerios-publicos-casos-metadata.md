@@ -129,9 +129,6 @@ Recursos disponibles
 
 -   **caso_hora_hecho (string):** hora en que se produjo el hecho
 
-delito_codigo, delito_descripcion, delito_tentativa, 
-                delito_flagrancia, delito_estadistico, acto_procesal_codigo, acto_procesal_descripcion, acto_procesal_fecha, acto_procesal_estadistico, fecha_envio
-			from tmp_mp_actos_procesales_muestreo 
 -   **autor_id (string):** código que permite identificar a presuntos autores denunciados en el caso que sean objeto de un acto procesal. Los actos procesales que afecten a casos con presuntos autores no identificados se consignan con autor_id "0"
 
 -   **autor_genero (string):** género del denunciado correspondiente al acto procesal. Toma los valores "M" para masculino y "F" para femenino
@@ -147,9 +144,9 @@ delito_codigo, delito_descripcion, delito_tentativa,
 -   **delito_estadistico (string):** agrupación efectuada con fines estadísticos a partir de los delitos informados
 
 -   **acto_procesal_id (string):** identificador del acto procesal.  Algunas provincias informan el acto procesal según los identificadores sugeridos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
-           - CD100 - Audiencia de imputación o declaración del imputado
-           - CD120 - Archivo NN
-           - CD230 - Acusación / requerimiento de elevación a juicio, etc. 
+	- CD100 - Audiencia de imputación o declaración del imputado
+	- CD120 - Archivo NN
+	- CD230 - Acusación / requerimiento de elevación a juicio, etc. 
 Algunas provincias informan el código de acto procesal según figura en sus sistemas.
 
 -   **acto_procesal_descripcion (string):** descripción del acto procesal. 
