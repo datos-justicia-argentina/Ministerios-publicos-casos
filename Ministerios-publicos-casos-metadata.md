@@ -24,9 +24,9 @@ Características
 
 Recursos disponibles
 --------------------
-### Ministerios públicos - Casos iniciados
+### Ministerios públicos - Casos
 
--   **Nombre:** ministerios-publicos-casos-iniciados.zip
+-   **Nombre:** ministerios-publicos-casos.zip
 
 -   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados.
 
@@ -49,9 +49,9 @@ Recursos disponibles
 
 -   **Observación:** la estructura de los archivos contenidos en este archivo está descripta en el recurso "Ministerios públicos - Actos Procesales - muestreo"
 
-### Ministerios públicos - Casos iniciados - Muestreo
+### Ministerios públicos - Casos - Muestreo
 
--   **Nombre:** ministerios-publicos-casos-iniciados-muestreo.csv
+-   **Nombre:** ministerios-publicos-casos-muestreo.csv
 
 -   **Descripción del contenido:** Muestreo de 1000 casos, obtenidos a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
 
@@ -148,9 +148,9 @@ Recursos disponibles
 	- CD120 - Archivo NN
 	- CD230 - Acusación / requerimiento de elevación a juicio, etc.
 
-Algunas provincias informan el código de acto procesal según figura en sus sistemas.
+Algunas provincias informan el código de acto procesal según figura en sus sistemas
 
--   **acto_procesal_descripcion (string):** descripción del acto procesal. 
+-   **acto_procesal_descripcion (string):** descripción del acto procesal
 
 -   **acto_procesal_fecha (date):** fecha del acto procesal correspondiente al caso y al denunciado. Tiene el formato AAAA-MM-DD
 
