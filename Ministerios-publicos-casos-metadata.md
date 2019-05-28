@@ -140,9 +140,9 @@ Recursos disponibles
 
 -   **acto_procesal_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
 
-### Provincias y años disponibles en los casos iniciados y actos procesales de los ministerios públicos
+### Ministerios Públicos - provincias y años disponibles
 
--   **Nombre:** provincias-y-anios-disponibles-ministerio-publico.csv
+-   **Nombre:** ministerios-publicos-provincias-y-anios-disponibles.csv
 
 -   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los ministerios públicos.
 
