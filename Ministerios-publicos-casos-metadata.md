@@ -52,7 +52,7 @@ Recursos disponibles
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** muestreo de casos iniciados en el año AAAA
+-   **Rango temporal:** muestreo de casos iniciados
 
 ### Campos del recurso
 
