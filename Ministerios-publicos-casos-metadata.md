@@ -60,7 +60,7 @@ Recursos disponibles
 
 -   **provincia_nombre (string):** nombre de provincia del Ministerio Público en que se inició el caso
 
--   **caso_id (string):** código que identifica el caso. Cada provincia usa su propio formato de identificación de caso. Si se repiten los números de caso en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de caso remitido, a fin de generar una clave unica de caso por provincia.
+-   **caso_id (string):** código que identifica el caso. Cada provincia usa su propio formato de identificación de caso. Si se repiten los números de caso en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de caso remitido, a fin de generar una clave única de caso por provincia.
 
 -   **circunscripción_id (string):** identificador de la circunscripción a la que pertenece la unidad en que se inició el caso. La circunscripción es la unidad territorial en que se divide la provincia a fin de la administración de justicia.
 
