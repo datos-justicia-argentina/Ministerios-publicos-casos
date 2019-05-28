@@ -26,7 +26,7 @@ Recursos disponibles
 --------------------
 ### Ministerios públicos - Casos iniciados
 
--   **Nombre:** mp-casos-iniciados.zip
+-   **Nombre:** ministerios-publicos-casos-iniciados.zip
 
 -   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados.
 
@@ -36,7 +36,7 @@ Recursos disponibles
 
 ### Ministerios públicos - Actos procesales
 
--   **Nombre:** mp-actos-procesales.zip
+-   **Nombre:** ministerios-publicos-actos-procesales.zip
 
 -   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales.
 
@@ -46,9 +46,9 @@ Recursos disponibles
 
 ### Ministerios públicos - Casos iniciados - Muestreo
 
--   **Nombre:** mp-casos-iniciados-muestreo.csv
+-   **Nombre:** ministerios-publicos-casos-iniciados-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 casos, obtenidos a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -60,15 +60,19 @@ Recursos disponibles
 
 -   **provincia_nombre (string):** nombre de provincia del Ministerio Público en que se inició el caso
 
--   **caso_id (string):** código que identifica el caso. Cada provincia usa su propio formato de identificación de caso.
+-   **caso_id (string):** código que identifica el caso. Cada provincia usa su propio formato de identificación de caso. Si se repiten los números de caso en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de caso remitido, a fin de generar una clave unica de caso por provincia.
 
--   **circunscripción_descripcion (string):** indica la unidad geográfica en que está divida la institución
+-   **circunscripción_id (string):** identificador de la circunscripción a la que pertenece la unidad en que se inició el caso. La circunscripción es la unidad territorial en que se divide la provincia a fin de la administración de justicia.
 
--   **unidad_mp_descripcion (string):** nombre de la unidad fiscal donde se inicia el caso
+-   **circunscripción_descripcion (string):** descripción de la circunscripción a la que pertenece la unidad en que se inició el caso. 
 
--   **caso_fecha_inicio (date):** fecha en que se inicia el caso. Tiene el formato AAAA-MM-DD
+-   **unidad_id (string):** identificador de la unidad donde se inició el caso. Las unidades son las dependencias de cada Ministerio Público.
 
--   **caso_fecha_hecho (date):** fecha en que se produjo el hecho. Tiene el formato AAAA-MM-DD
+-   **unidad_descripcion (string):** descripción de la unidad en que se inició el caso.
+
+-   **caso_fecha_inicio (date):** fecha en que se inició el caso. Tiene el formato AAAA-MM-DD
+
+-   **caso_fecha_hecho (date):** fecha en que se prod el hecho. Tiene el formato AAAA-MM-DD
 
 -   **caso_hora_hecho (string):** hora en que se produjo el hecho
 
@@ -78,15 +82,19 @@ Recursos disponibles
 
 -   **caso_cantidad_menores_involucrados_identificados (int):** cantidad numérica de presuntos autores del hecho, que son menores de edad (menores de 18 años)
 
+-   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura prupuesta por el Ministerio de Justicia y Derechos Humanos de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor.
+
 -   **delito_descripcion (string):** descripción del delito denunciado
 
--   **delito_tentativa (string):** describe si el delito se produjo en grado de tentativa. Toma los valores SI/NO
+-   **delito_tentativa (string):** indica si el delito se produjo en grado de tentativa. Toma los valores SI/NO
 
--   **delito_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del caso informado
+-   **delito_estadistico (string):** agrupación efectuada con fines estadísticos a partir de los delitos informados
+
+-   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
 
 ### Ministerios públicos - Actos procesales - Muestreo
 
--   **Nombre:** mp-actos-procesales-muestreo.csv
+-   **Nombre:** ministerios-publicos-actos-procesales-muestreo.csv
 
 -   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales. Los datos completos están publicados en formato zip.
 
