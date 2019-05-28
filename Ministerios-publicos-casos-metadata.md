@@ -49,7 +49,7 @@ Recursos disponibles
 
 -   **Nombre de los archivos contenidos:** ministerios-publicos-actos-procesales-AAAA.csv
 
--   **Rango temporal:** Actos procesales realizados en el año AAAA
+-   **Rango temporal:** actos procesales realizados en el año AAAA
 
 -   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Actos Procesales - Muestreo"
 
@@ -147,7 +147,7 @@ Recursos disponibles
 
 -   **delito_estadistico (string):** agrupación efectuada con fines estadísticos a partir de los delitos informados
 
--   **acto_procesal_id (string):** identificador del acto procesal.  Algunas provincias informan el acto procesal según los identificadores sugeridos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+-   **acto_procesal_id (string):** identificador del acto procesal.  Algunas provincias informan el acto procesal según los identificadores propuestos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
 	- CD100 - Audiencia de imputación o declaración del imputado
 	- CD120 - Archivo NN
 	- CD230 - Acusación / requerimiento de elevación a juicio, etc.
