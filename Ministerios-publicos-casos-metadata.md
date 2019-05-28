@@ -34,6 +34,9 @@ Recursos disponibles
 
 -   **Rango temporal:** período comprendido entre los años AAAA
 
+-   **Observación:** la estructura de los archivos contenidos en este archivo está descripta en el recurso "Ministerios públicos - Casos iniciados - muestreo"
+
+
 ### Ministerios públicos - Actos procesales
 
 -   **Nombre:** ministerios-publicos-actos-procesales.zip
@@ -43,6 +46,8 @@ Recursos disponibles
 -   **Formato:** ZIP
 
 -   **Rango temporal:** período comprendido entre los años AAAA
+
+-   **Observación:** la estructura de los archivos contenidos en este archivo está descripta en el recurso "Ministerios públicos - Actos Procesales - muestreo"
 
 ### Ministerios públicos - Casos iniciados - Muestreo
 
@@ -82,7 +87,7 @@ Recursos disponibles
 
 -   **caso_cantidad_menores_involucrados_identificados (int):** cantidad numérica de presuntos autores del hecho, que son menores de edad (menores de 18 años)
 
--   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura prupuesta por el Ministerio de Justicia y Derechos Humanos de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor.
+-   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura propuesta por el Ministerio de Justicia y Derechos Humanos de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor.
 
 -   **delito_descripcion (string):** descripción del delito denunciado
 
@@ -110,9 +115,13 @@ Recursos disponibles
 
 -   **caso_id (string):** código que identifica el caso
 
--   **circunscripción_descripcion (string):** indica la unidad geográfica en que está divida la institución
+-   **circunscripción_id (string):** identificador de la circunscripción a la que pertenece la unidad en que se realizó el acto procesal. La circunscripción es la unidad territorial en que se divide la provincia a fin de la administración de justicia
 
--   **unidad_mp_descripcion (string):** nombre de la unidad donde se lleva a cabo el acto procesal
+-   **circunscripción_descripcion (string):** descripción de la circunscripción a la que pertenece la unidad en que se realizó el acto procesal
+
+-   **unidad_id (string):** identificador de la unidad donde se realizó el acto procesal. Las unidades son las dependencias de cada Ministerio Público
+
+-   **unidad_descripcion (string):** descripción de la unidad en que se realizó el acto procesal
 
 -   **caso_fecha_inicio (date):** fecha en que se inicia el caso. Tiene el formato AAAA-MM-DD
 
@@ -120,25 +129,36 @@ Recursos disponibles
 
 -   **caso_hora_hecho (string):** hora en que se produjo el hecho
 
+delito_codigo, delito_descripcion, delito_tentativa, 
+                delito_flagrancia, delito_estadistico, acto_procesal_codigo, acto_procesal_descripcion, acto_procesal_fecha, acto_procesal_estadistico, fecha_envio
+			from tmp_mp_actos_procesales_muestreo 
 -   **autor_id (string):** código que permite identificar a presuntos autores denunciados en el caso que sean objeto de un acto procesal. Los actos procesales que afecten a casos con presuntos autores no identificados se consignan con autor_id "0"
 
 -   **autor_genero (string):** género del denunciado correspondiente al acto procesal. Toma los valores "M" para masculino y "F" para femenino
 
 -   **autor_edad (string):** edad del denunciado correspondiente al acto procesal. Si el denunciado es mayor de 65 años toma el valor 65+
 
--   **delito_descripcion (string):** delito asociado a este denunciado y acto procesal
+-   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura propuesta por el Ministerio de Justicia y Derechos Humanos de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor.
 
--   **delito_tentativa (string):** indica si el delito se produjo en grado de tentativa correspondiente a ese denunciado y al acto procesal. Toma los valores SI/NO
+-   **delito_descripcion (string):** descripción del delito denunciado
 
--   **delito_flagrancia (string):** indica si el caso sigue el proceso de flagrancia, en relación al acto procesal. Aplica para todas las provincias que tengan reglamentado dicho proceso. Toma los valores SI/NO
+-   **delito_tentativa (string):** indica si el delito se produjo en grado de tentativa. Toma los valores SI/NO
 
--   **delito_estadistico (string):** agrupación efectuada con fines estadísticos, a partir del delito informado
+-   **delito_estadistico (string):** agrupación efectuada con fines estadísticos a partir de los delitos informados
 
--   **acto_procesal_descripcion (string):** descripción del acto procesal. Ejemplo: audiencia de imputación, requerimiento de elevación a jucio, sobreseimiento
+-   **acto_procesal_id (string):** identificador del acto procesal.  Algunas provincias informan el acto procesal según los identificadores sugeridos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+           - CD100 - Audiencia de imputación o declaración del imputado
+           - CD120 - Archivo NN
+           - CD230 - Acusación / requerimiento de elevación a juicio, etc. 
+Algunas provincias informan el código de acto procesal según figura en sus sistemas.
+
+-   **acto_procesal_descripcion (string):** descripción del acto procesal. 
 
 -   **acto_procesal_fecha (date):** fecha del acto procesal correspondiente al caso y al denunciado. Tiene el formato AAAA-MM-DD
 
--   **acto_procesal_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
+-   **acto_procesal_estadistico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
+
+-   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
 
 ### Ministerios Públicos - provincias y años disponibles
 
