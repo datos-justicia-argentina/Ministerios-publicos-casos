@@ -1,4 +1,4 @@
-Ministerios públicos - Casos
+Ministerios públicos - Casos 
 ============================
 
 En este conjunto de datos se presentan los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, siguiendo el iguiendo el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), en el marco del [Convenio Interjurisdiccional de Datos Abiertos de Justicia](https://github.com/datos-justicia-argentina/Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos/blob/master/Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia.pdf).
@@ -24,9 +24,9 @@ Características
 
 Recursos disponibles
 --------------------
-### Ministerios públicos - Casos
+### Ministerios públicos - Casos iniciados
 
--   **Nombre:** ministerios-publicos-casos.zip
+-   **Nombre:** ministerios-publicos-casos-iniciados.zip
 
 -   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados.
 
@@ -36,7 +36,7 @@ Recursos disponibles
 
 -   **Rango temporal:** casos iniciados en el año AAAA 
 
--   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Casos - muestreo"
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Casos - iniciados - muestreo"
 
 
 ### Ministerios públicos - Actos procesales
@@ -53,9 +53,9 @@ Recursos disponibles
 
 -   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Actos Procesales - Muestreo"
 
-### Ministerios públicos - Casos - Muestreo
+### Ministerios públicos - Casos - iniciados - Muestreo
 
--   **Nombre:** ministerios-publicos-casos-muestreo.csv
+-   **Nombre:** ministerios-publicos-casos-iniciados-muestreo.csv
 
 -   **Descripción del contenido:** Muestreo de 1000 casos, obtenidos a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
 
