@@ -54,7 +54,7 @@ Recursos disponibles
 
 -   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Actos Procesales - Muestreo"
 
-### Ministerios públicos - Casos - iniciados - Muestreo
+### Ministerios públicos - Casos iniciados - Muestreo
 
 -   **Nombre:** ministerios-publicos-casos-iniciados-muestreo.csv
 
@@ -169,7 +169,7 @@ Algunas provincias informan el código de acto procesal según figura en sus sis
 
 -   **Descripción del contenido:** Índice de provincias y años disponibles publicados
 
--   **Formato:** CSV delimitado por comas, codificado en UTF-8
+-   **Formato:** CSV delimitado por comas, codificado en UTF-8 BOM
 
 -   **Rango temporal:**: período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
 
@@ -181,9 +181,9 @@ Algunas provincias informan el código de acto procesal según figura en sus sis
 
 -   **institucion (string):** nombre de la institución que publica
 
--   **anio (string):** año de los casos informados
+-   **anio (string):** año de los casos o de los actos procesales informados
 
--   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos (contenidos en el recurso "Ministerios Públicos - Casos "). Toma los valores S: Sí, N: No
+-   **publica_casos (string):** indica si la institución publica datos correspondientes a casos iniciados (contenidos en el recurso "Ministerios Públicos - Casos iniciados"). Toma los valores S: Sí, N: No
 
 -   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (contenidos en el recurso "Ministerios Públicos - Actos Procesales"). Toma los valores S: Sí, N: No
 
