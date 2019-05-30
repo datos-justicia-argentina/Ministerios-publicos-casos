@@ -24,6 +24,7 @@ Características
 
 Recursos disponibles
 --------------------
+
 ### Ministerios públicos - Casos iniciados
 
 -   **Nombre:** ministerios-publicos-casos-iniciados.zip
@@ -166,7 +167,7 @@ Algunas provincias informan el código de acto procesal según figura en sus sis
 
 -   **Nombre:** ministerios-publicos-provincias-y-anios-disponibles.csv
 
--   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los ministerios públicos.
+-   **Descripción del contenido:** Índice de provincias y años disponibles publicados
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
