@@ -20,7 +20,7 @@ Características
 
 -   **Grupo:** Instituciones de Justicia
 
--   **Frecuencia de Actualización:** Eventualmente
+-   **Frecuencia de Actualización:** Mensualmente
 
 Recursos disponibles
 --------------------
@@ -148,7 +148,7 @@ Recursos disponibles
 
 -   **delito_estadistico (string):** agrupación efectuada con fines estadísticos a partir de los delitos informados
 
--   **acto_procesal_id (string):** identificador del acto procesal.  Algunas provincias informan el acto procesal según los identificadores propuestos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+-   **acto_procesal_codigo (string):** código del acto procesal.  Algunas provincias informan el acto procesal según los identificadores propuestos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
 	- CD100 - Audiencia de imputación o declaración del imputado
 	- CD120 - Archivo NN
 	- CD230 - Acusación / requerimiento de elevación a juicio, etc.
@@ -171,7 +171,7 @@ Algunas provincias informan el código de acto procesal según figura en sus sis
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8 BOM
 
--   **Rango temporal:**: período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
+-   **Rango temporal:**: cada uno de los años informados para cada provincia
 
 ### Campos del recurso
 
