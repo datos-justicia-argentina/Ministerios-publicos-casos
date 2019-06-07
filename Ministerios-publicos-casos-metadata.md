@@ -58,7 +58,7 @@ Recursos disponibles
 
 -   **Nombre:** ministerios-publicos-casos-iniciados-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 casos, obtenidos a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 registros, obtenidos a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -106,7 +106,7 @@ Recursos disponibles
 
 -   **Nombre:** ministerios-publicos-actos-procesales-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 registros, elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
