@@ -10,7 +10,7 @@ Características
 
 -   **Fecha de Primera Publicación:** 09/05/2019
 
--   **Tags o Etiquetas:** Buenos Aires, Catamarca, Chaco, Chubut, Ciudad Autónoma de Buenos Aires, Corrientes, Córdoba, Entre Ríos, Formosa, Jujuy, La Pampa, La Rioja, Mendoza, Misiones, Neuquén, Río Negro, Salta, San Juan, San Luis, Santa Cruz, Santa Fe, Santiago del Estero, Tierra del Fuego, Tucumán, actos procesales, casos, código penal, delitos, instituciones, investigación penal preparatoria, ministerios públicos, sistemas acusatorios, sistemas inquisitorios
+-   **Tags o Etiquetas:** actos procesales, casos, código penal, delitos, instituciones, investigación penal preparatoria, ministerios públicos, sistemas acusatorios, sistemas inquisitorios
 
 -   **Organización:** Ministerio de Justicia y Derechos Humanos. Secretaría de Justicia. Subsecretaría de Política Criminal. Programa Justicia Abierta
 
