@@ -12,11 +12,11 @@ Características
 
 -   **Tags o Etiquetas:** actos procesales, casos, código penal, delitos, instituciones, investigación penal preparatoria, ministerios públicos, sistemas acusatorios, sistemas inquisitorios
 
--   **Organización:** Ministerio de Justicia y Derechos Humanos. Secretaría de Justicia. Subsecretaría de Política Criminal. Programa Justicia Abierta
+-   **Organización:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
 
--   **Autor:** Ministerio de Justicia y Derechos Humanos. Secretaría de Justicia. Subsecretaría de Política Criminal. Programa Justicia Abierta
+-   **Autor:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
 
--   **Responsable:** Ministerio de Justicia y Derechos Humanos. Secretaría de Justicia. Subsecretaría de Política Criminal. Programa Justicia Abierta
+-   **Responsable:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
 
 -   **Grupo:** Instituciones de Justicia
 
