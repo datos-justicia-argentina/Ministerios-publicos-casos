@@ -25,11 +25,11 @@ Características
 Recursos disponibles
 --------------------
 
-### Ministerios públicos - Casos iniciados
+### Ministerios públicos - Casos iniciados 2024-2025
 
--   **Nombre:** ministerios-publicos-casos-iniciados.zip
+-   **Nombre:** ministerios-publicos-casos-iniciados-2024-2025.zip
 
--   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados.
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados, años 2014 y 2025
 
 -   **Formato:** ZIP
 
@@ -40,11 +40,40 @@ Recursos disponibles
 -   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Casos - iniciados - muestreo"
 
 
-### Ministerios públicos - Actos procesales
+### Ministerios públicos - Actos procesales 2024-2025
 
--   **Nombre:** ministerios-publicos-actos-procesales.zip
+-   **Nombre:** ministerios-publicos-actos-procesales-20124-2025.zip
 
--   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales.
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales, años 2024 y 2025
+
+-   **Formato:** ZIP
+
+-   **Nombre de los archivos contenidos:** ministerios-publicos-actos-procesales-AAAA.csv
+
+-   **Rango temporal:** actos procesales realizados en el año AAAA
+
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Actos Procesales - Muestreo"
+
+### Ministerios públicos - Casos iniciados 2013-2023
+
+-   **Nombre:** ministerios-publicos-casos-iniciados-2013-2023.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados, entre los años 2013 y 2023
+
+-   **Formato:** ZIP
+
+-   **Nombre de los archivos contenidos:** ministerios-publicos-casos-AAAA.csv
+
+-   **Rango temporal:** casos iniciados en el año AAAA 
+
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Ministerios públicos - Casos - iniciados - muestreo"
+
+
+### Ministerios públicos - Actos procesales 2013-2023
+
+-   **Nombre:** ministerios-publicos-actos-procesales-2013-2023.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales, entre los años 2013 y 2023
 
 -   **Formato:** ZIP
 
