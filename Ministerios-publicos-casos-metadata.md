@@ -29,7 +29,7 @@ Recursos disponibles
 
 -   **Nombre:** ministerios-publicos-casos-iniciados-2024-2025.zip
 
--   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados, años 2014 y 2025
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a casos iniciados, años 2024 y 2025
 
 -   **Formato:** ZIP
 
@@ -42,7 +42,7 @@ Recursos disponibles
 
 ### Ministerios públicos - Actos procesales 2024-2025
 
--   **Nombre:** ministerios-publicos-actos-procesales-20124-2025.zip
+-   **Nombre:** ministerios-publicos-actos-procesales-2024-2025.zip
 
 -   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los ministerios públicos, correspondientes a actos procesales, años 2024 y 2025
 
